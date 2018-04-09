@@ -1,3 +1,6 @@
-# My Awesome Book
+# 关于本书
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+本书是EOS官方[《EOS.IO Technical White Paper v2》](https://github.com/EOSIO/Documentation/blob/master/TechnicalWhitePaper.md)的中译版《EOS.IO 技术白皮书第二版》。
+
+有关EOS的跟多内容，可以访问EOS官方网站：[https://eos.io/](https://eos.io/)
+
