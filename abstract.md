@@ -6,17 +6,17 @@ EOS.IO 软件引入一种新的区块链架构设计，它使得去中心化的�
 >
 > The EOS.IO software introduces a new blockchain architecture designed to enable vertical and horizontal scaling of decentralized applications. This is achieved by creating an operating system-like construct upon which applications can be built. The software provides accounts, authentication, databases, asynchronous communication, and the scheduling of applications across many of CPU cores or clusters. The resulting technology is a blockchain architecture that may ultimately scale to millions of transactions per second, eliminates user fees, and allows for quick and easy deployment and maintenance of decentralized applications, in the context of a governed blockchain.
 
-请注意：本白皮书中提到的加密Token指在采用EOS.IO软件构建的区块链之上的加密Token。并不是指与在与EOS token分发有关的以太坊区块链上分发的兼容ERC-20标准的token。
+**请注意：本白皮书中提到的加密Token指在采用EOS.IO软件构建的区块链之上的加密Token。并不是指与在与EOS token分发有关的以太坊区块链上分发的兼容ERC-20标准的token。**
 
 > **PLEASE NOTE: CRYPTOGRAPHIC TOKENS REFERRED TO IN THIS WHITE PAPER REFER TO CRYPTOGRAPHIC TOKENS ON A LAUNCHED BLOCKCHAIN THAT ADOPTS THE EOS.IO SOFTWARE. THEY DO NOT REFER TO THE ERC-20 COMPATIBLE TOKENS BEING DISTRIBUTED ON THE ETHEREUM BLOCKCHAIN IN CONNECTION WITH THE EOS TOKEN DISTRIBUTION.**
->
+
+在非用于商业和教育用途的前提下 \(即，除了收取费用或商业目的\)，如果注明原始出处并声明版权，任何人可以在未经允许的情况下使用、复制或发布本白皮书内的任何内容。
+
 > Copyright © 2018 block.one
-
-===
-
+>
 > Without permission, anyone may use, reproduce or distribute any material in this white paper for non-commercial and educational use \(i.e., other than for a fee or for commercial purposes\) provided that the original source and the applicable copyright notice are cited.
 
-===
+**免责声明：**
 
 > **DISCLAIMER:**
 >
