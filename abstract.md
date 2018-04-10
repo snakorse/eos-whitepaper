@@ -1,10 +1,12 @@
-===
+摘要：
+
+EOS.IO 软件引入一种新的区块链架构设计，它使得去中心化的应用可以横向和纵向的扩展。这通过实现一个可在其之上构建应用的类似操作系统的架构来实现。该软件提供账户、身份认证、数据库、异步通信和跨众多CPU内核或集群的应用程序调度。由此产生的技术是一个区块链架构，可以最终达到支持每秒百万级交易、免用户手续费，并且在受治理的区块链环境中实现快速便捷的部署和维护去中心化应用。
 
 > **Abstract:**
 >
 > The EOS.IO software introduces a new blockchain architecture designed to enable vertical and horizontal scaling of decentralized applications. This is achieved by creating an operating system-like construct upon which applications can be built. The software provides accounts, authentication, databases, asynchronous communication, and the scheduling of applications across many of CPU cores or clusters. The resulting technology is a blockchain architecture that may ultimately scale to millions of transactions per second, eliminates user fees, and allows for quick and easy deployment and maintenance of decentralized applications, in the context of a governed blockchain.
 
-===
+请注意：本白皮书中提到的加密Token指在采用EOS.IO软件构建的区块链之上的加密Token。并不是指与在与EOS token分发有关的以太坊区块链上分发的兼容ERC-20标准的token。
 
 > **PLEASE NOTE: CRYPTOGRAPHIC TOKENS REFERRED TO IN THIS WHITE PAPER REFER TO CRYPTOGRAPHIC TOKENS ON A LAUNCHED BLOCKCHAIN THAT ADOPTS THE EOS.IO SOFTWARE. THEY DO NOT REFER TO THE ERC-20 COMPATIBLE TOKENS BEING DISTRIBUTED ON THE ETHEREUM BLOCKCHAIN IN CONNECTION WITH THE EOS TOKEN DISTRIBUTION.**
 >
