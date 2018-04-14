@@ -1,4 +1,4 @@
-* Backgroud
+* 背景\(Backgroud\)
 * Requirements for Blockchain Applications
   * Support Millions of Users
   * Free Usage
