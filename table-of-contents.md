@@ -1,57 +1,57 @@
-* [背景](/backgroud.md)
-* [区块链应用需求](/qu-kuai-lian-ying-yong-xu-qiu.md)
+* [**背景**](/backgroud.md)
+* [**区块链应用需求**](/qu-kuai-lian-ying-yong-xu-qiu.md)
   * [支持百万级用户](/qu-kuai-lian-ying-yong-xu-qiu/support-millions-of-users.md)
-  * 免费使用
-  * 便捷的升级和修复Bug
-  * 低延迟
-  * 时序性能
-  * 并发性能
-* 共识算法\(DPOS\)
-  * 交易确认
-  * 权益证明交易\(TaPos\)
-* 账户
-  * 操作 & 处理
-  * 基于角色的权限管理
-    * 命名权限级别
-    * 权限映射
-    * 评估权限
-      * 默认权限群组
-      * 权限并行评估
-  * 带强制性延迟的操作
-  * 恢复被盗窃的密钥
-* 应用程序的确定性并行执行
-  * 最小化通信延迟
-  * 只读操作的处理
-  * 多账户原子化交易
-  * 区块链状态的部分评估
-  * 自主最优调度
-  * 延期的交易
-  * 上下文无关的操作
-* Token模型与资源使用
-  * 客观与主观的度量
-  * 接收方付费
-  * 委托能力
-  * 分离交易成本与Token价值
-  * 状态存储成本
-  * 区块奖励
-  * 矿工提议系统
-* 治理
-  * 冻结账户
-  * 更改账户代码
-  * 章程
-  * 更新协议&章程
-    * 紧急变更
-* 脚本 & 虚拟机
-  * 模式定义操作
-  * 模式定义数据库
-  * 通用多索引数据库API
-  * 分离授权与应用
-* 跨链通信
-  * 用于轻客户端验证的Merkle证明\(LCV\)
-  * 跨链通信延迟
-  * 完备性证明
-  * 隔离见证
-* 结论
+  * [免费使用](/qu-kuai-lian-ying-yong-xu-qiu/free-usage.md)
+  * [便捷的升级和修复Bug](/qu-kuai-lian-ying-yong-xu-qiu/easy-upgrades-and-bug-recovery.md)
+  * [低延迟](/qu-kuai-lian-ying-yong-xu-qiu/low-latency.md)
+  * [时序性能](/qu-kuai-lian-ying-yong-xu-qiu/sequential-performance.md)
+  * [并发性能](/qu-kuai-lian-ying-yong-xu-qiu/parallel-performance.md)
+* [**共识算法\(DPOS\)**](/consensus-algorithm-bft-dpos.md)
+  * [交易确认](/consensus-algorithm-bft-dpos/transaction-confirmation.md)
+  * [权益证明交易\(TaPos\)](/consensus-algorithm-bft-dpos/transaction-as-proof-of-stake-tapos.md)
+* [**账户**](/accounts.md)
+  * [操作 & 处理](/accounts/actions-and-handlers.md)
+  * [基于角色的权限管理](/accounts/role-based-permission-management.md)
+    * [命名权限级别](/accounts/role-based-permission-management/named-permission-levels.md)
+    * [权限映射](/accounts/role-based-permission-management/permission-mapping.md)
+    * [评估权限](/accounts/role-based-permission-management/evaluating-permissions.md)
+      * [默认权限群组](/accounts/role-based-permission-management/evaluating-permissions/default-permission-groups.md)
+      * [权限并行评估](/accounts/role-based-permission-management/evaluating-permissions/parallel-evaluation-of-permissions.md)
+  * [带强制性延迟的操作](/accounts/actions-with-mandatory-delay.md)
+  * [恢复被盗窃的密钥](/accounts/recovery-from-stolen-keys.md)
+* [**应用程序的确定性并行执行**](/deterministic-parallel-execution-of-applications.md)
+  * [最小化通信延迟](/deterministic-parallel-execution-of-applications/minimizing-communication-latency.md)
+  * [只读操作的处理](/deterministic-parallel-execution-of-applications/read-only-action-handlers.md)
+  * [多账户原子化交易](/deterministic-parallel-execution-of-applications/atomic-transactions-with-multiple-accounts.md)
+  * [区块链状态的部分评估](/deterministic-parallel-execution-of-applications/partial-evaluation-of-blockchain-state.md)
+  * [自主最优调度](/deterministic-parallel-execution-of-applications/subjective-best-effort-scheduling.md)
+  * [延期的交易](/deterministic-parallel-execution-of-applications/deferred-transactions.md)
+  * [上下文无关的操作](/deterministic-parallel-execution-of-applications/context-free-actions.md)
+* [**Token模型与资源使用**](/token-model-and-resource-usage.md)
+  * [客观与主观的度量](/token-model-and-resource-usage/objective-and-subjective-measurements.md)
+  * [接收方付费](/token-model-and-resource-usage/receiver-pays.md)
+  * [委托能力](/token-model-and-resource-usage/delegating-capacity.md)
+  * [分离交易成本与Token价值](/token-model-and-resource-usage/separating-transaction-costs-from-token-value.md)
+  * [状态存储成本](/token-model-and-resource-usage/state-storage-costs.md)
+  * [区块奖励](/token-model-and-resource-usage/block-rewards.md)
+  * [矿工提议系统](/token-model-and-resource-usage/worker-proposal-system.md)
+* [**治理**](/governance.md)
+  * [冻结账户](/governance/freezing-accounts.md)
+  * [更改账户代码](/governance/changing-account-code.md)
+  * [章程](/governance/constitution.md)
+  * [更新协议&章程](/governance/upgrading-the-protocol-and-constitution.md)
+    * [紧急变更](/governance/upgrading-the-protocol-and-constitution/emergency-changes.md)
+* [**脚本 & 虚拟机**](/scripts-and-virtual-machines.md)
+  * [模式定义操作](/scripts-and-virtual-machines/schema-defined-actions.md)
+  * [模式定义数据库](/scripts-and-virtual-machines/schema-defined-database.md)
+  * [通用多索引数据库API](/scripts-and-virtual-machines/generic-multi-index-database-api.md)
+  * [分离授权与应用](/scripts-and-virtual-machines/separating-authentication-from-application.md)
+* [**跨链通信**](/inter-blockchain-communication.md)
+  * [用于轻客户端验证的Merkle证明\(LCV\)](/inter-blockchain-communication/merkle-proofs-for-light-client-validation-lcv.md)
+  * [跨链通信延迟](/inter-blockchain-communication/latency-of-interchain-communication.md)
+  * [完备性证明](/inter-blockchain-communication/proof-of-completeness.md)
+  * [隔离见证](/inter-blockchain-communication/segregated-witness.md)
+* [**结论**](/conclusion.md)
 
 
 
