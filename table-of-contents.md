@@ -1,5 +1,5 @@
 * 背景\(Backgroud\)
-* Requirements for Blockchain Applications
+* 区块链应用需求\(Requirements for Blockchain Applications\)
   * Support Millions of Users
   * Free Usage
   * Easy Upgrades and Bug Recovery
