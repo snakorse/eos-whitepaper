@@ -1,12 +1,12 @@
-* 背景
-* 区块链应用需求
-  * 支持百万级用户
+* [背景](/backgroud.md)
+* [区块链应用需求](/qu-kuai-lian-ying-yong-xu-qiu.md)
+  * [支持百万级用户](/qu-kuai-lian-ying-yong-xu-qiu/support-millions-of-users.md)
   * 免费使用
   * 便捷的升级和修复Bug
   * 低延迟
   * 时序性能
   * 并发性能
-* 同时算法\(DPOS\)
+* 共识算法\(DPOS\)
   * 交易确认
   * 权益证明交易\(TaPos\)
 * 账户
