@@ -1,57 +1,57 @@
-* 背景\(Backgroud\)
-* 区块链应用需求\(Requirements for Blockchain Applications\)
-  * Support Millions of Users
-  * Free Usage
-  * Easy Upgrades and Bug Recovery
-  * Low Latency
-  * Sequential Performance
-  * Parallel Performance
-* Consensus Algorithm\(BFT-DPOS\)
-  * Transaction Confirmation
-  * Transaction as Proof of Stake\(TaPos\)
-* Accounts
-  * Actions & Handlers
-  * Role Based Permission Management
-    * Named Permission Levels
-    * Permission Mapping
-    * Evaluating Permissions
-      * Default Permission Groups
-      * Parallel Evaluation of Permissions
-  * Actions with Mandatory Delay
-  * Recovery from Stolen Keys
-* Deterministic Parallel Execution of Applications
-  * Minimizing Conmmunication Latency
-  * Read-Only Action Handlers
-  * Atomic Transactions with Multiple Accounts
-  * Partial Evaluation of Blockchain State
-  * Subjective Best Effort Scheduling
-  * Deferred Transactions
-  * Context Free Actions
-* Token Model and Resource Usage
-  * Objective and Subjective Measurements
-  * Receiver Pays
-  * Delegating Capacity
-  * Separating Transaction costs from Token Value
-  * State Storage Costs
-  * Block Rewards
-  * Worker Proposal System
-* Govemance
-  * Freezing Accounts
-  * Changing Account Code
-  * Constitution
-  * Upgrading the Protocol & Constitution
-    * Emergency Changes
-* Scripts & Virtual Machines
-  * Schema Defined Actions
-  * Schema Defined Database
-  * Generic Multi Index Database API
-  * Separating Authentication from Application
-* Inter Blockchain Communication 
-  * Merkle Proofs for Light Client Validation\(LCV\)
-  * Latency of Interchain Communication
-  * Proof of Completeness
-  * Segregated Witness
-* Conclusion
+* 背景
+* 区块链应用需求
+  * 支持百万级用户
+  * 免费使用
+  * 便捷的升级和修复Bug
+  * 低延迟
+  * 时序性能
+  * 并发性能
+* 同时算法\(DPOS\)
+  * 交易确认
+  * 权益证明交易\(TaPos\)
+* 账户
+  * 操作 & 处理
+  * 基于角色的权限管理
+    * 命名权限级别
+    * 权限映射
+    * 评估权限
+      * 默认权限群组
+      * 权限并行评估
+  * 带强制性延迟的操作
+  * 恢复被盗窃的密钥
+* 应用程序的确定性并行执行
+  * 最小化通信延迟
+  * 只读操作的处理
+  * 多账户原子化交易
+  * 区块链状态的部分评估
+  * 自主最优调度
+  * 延期的交易
+  * 上下文无关的操作
+* Token模型与资源使用
+  * 客观与主观的度量
+  * 接收方付费
+  * 委托能力
+  * 分离交易成本与Token价值
+  * 状态存储成本
+  * 区块奖励
+  * 矿工提议系统
+* 治理
+  * 冻结账户
+  * 更改账户代码
+  * 章程
+  * 更新协议&章程
+    * 紧急变更
+* 脚本 & 虚拟机
+  * 模式定义操作
+  * 模式定义数据库
+  * 通用多索引数据库API
+  * 分离授权与应用
+* 跨链通信
+  * 用于轻客户端验证的Merkle证明\(LCV\)
+  * 跨链通信延迟
+  * 完备性证明
+  * 隔离见证
+* 结论
 
 
 
