@@ -1,4 +1,4 @@
-# Consensus Algorithm \(BFT-DPOS\)
+# 公式算法 \(BFT-DPOS\)
 
 > #### Consensus Algorithm \(BFT-DPOS\)
 
