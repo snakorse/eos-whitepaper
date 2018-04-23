@@ -10,7 +10,7 @@
   * [便捷的升级和修复Bug](qu-kuai-lian-ying-yong-xu-qiu/easy-upgrades-and-bug-recovery.md)
   * [低延迟](qu-kuai-lian-ying-yong-xu-qiu/low-latency.md)
   * [时序性能](qu-kuai-lian-ying-yong-xu-qiu/sequential-performance.md)
-  * [并发性能](qu-kuai-lian-ying-yong-xu-qiu/parallel-performance.md)
+  * [并行性能](qu-kuai-lian-ying-yong-xu-qiu/parallel-performance.md)
 * [共识算法\(DPOS\)](consensus-algorithm-bft-dpos.md)
   * [交易确认](consensus-algorithm-bft-dpos/transaction-confirmation.md)
   * [权益证明交易\(TaPos\)](consensus-algorithm-bft-dpos/transaction-as-proof-of-stake-tapos.md)
