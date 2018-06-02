@@ -4,7 +4,7 @@
 
 ---
 
-EOS.IO软件利用了唯一已知的分散共识算法，该算法能够满足区块链上应用程序的性能要求，授权的证据（DPOS）。在这种算法下，那些在采用了EOS.IO软件的区块链上持有代币的人可以通过一个连续的批准投票系统来选择块生产者。任何人都可以选择参与区块生产，并将有机会生产区块，只要他们能说服令牌持有者投票给他们。
+EOS.IO软件利用了唯一已知的分散共识算法，该算法能够满足区块链上应用程序的性能要求，授权的证据（DPOS）。在这种算法下，那些在采用了EOS.IO软件的区块链上持有token的人可以通过一个连续的批准投票系统来选择块生产者。任何人都可以选择参与区块生产，并将有机会生产区块，只要他们能说服token持有者投票给他们。
 
 > EOS.IO software utilizes the only known decentralized consensus algorithm proven capable of meeting the performance requirements of applications on the blockchain, [Delegated Proof of Stake \(DPOS\)](https://steemit.com/dpos/@dantheman/dpos-consensus-algorithm-this-missing-white-paper). Under this algorithm, those who hold tokens on a blockchain adopting the EOS.IO software may select block producers through a continuous approval voting system. Anyone may choose to participate in block production and will be given an opportunity to produce blocks, provided they can persuade token holders to vote for them.
 
