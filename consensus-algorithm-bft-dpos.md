@@ -8,7 +8,7 @@ EOS.IO软件利用了唯一已知的分散共识算法，该算法能够满足�
 
 > EOS.IO software utilizes the only known decentralized consensus algorithm proven capable of meeting the performance requirements of applications on the blockchain, [Delegated Proof of Stake \(DPOS\)](https://steemit.com/dpos/@dantheman/dpos-consensus-algorithm-this-missing-white-paper). Under this algorithm, those who hold tokens on a blockchain adopting the EOS.IO software may select block producers through a continuous approval voting system. Anyone may choose to participate in block production and will be given an opportunity to produce blocks, provided they can persuade token holders to vote for them.
 
-===
+EOS.IO软件保证了每0.5秒产生一个区块，且在任何时间点只有一个生产者可以被授权生产区块。如果在预设的时间点没有区块产生，那么这个时间槽对应的区块将被跳过。每一个被跳过的区块，都会在区块链上行程一个时间空隙。
 
 > The EOS.IO software enables blocks to be produced exactly every 0.5 second and exactly one producer is authorized to produce a block at any given point in time. If the block is not produced at the scheduled time, then the block for that time slot is skipped. When one or more blocks are skipped, there is a 0.5 or more second gap in the blockchain.
 
