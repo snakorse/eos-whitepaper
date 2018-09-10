@@ -6,11 +6,11 @@ EOS.IO软件利用了唯一已知的分散共识算法，该算法能够满足�
 
 > EOS.IO software utilizes the only known decentralized consensus algorithm proven capable of meeting the performance requirements of applications on the blockchain, [Delegated Proof of Stake \(DPOS\)](https://steemit.com/dpos/@dantheman/dpos-consensus-algorithm-this-missing-white-paper). Under this algorithm, those who hold tokens on a blockchain adopting the EOS.IO software may select block producers through a continuous approval voting system. Anyone may choose to participate in block production and will be given an opportunity to produce blocks, provided they can persuade token holders to vote for them.
 
-EOS.IO软件保证了每0.5秒产生一个区块，且在任何时间点只有一个生产者可以被授权生产区块。如果在预设的时间点没有区块产生，那么这个时间槽对应的区块将被跳过。每一个被跳过的区块，都会在区块链上行程一个时间空隙。
+EOS.IO软件保证了每0.5秒精确的产生一个区块，且在任何时间点只有一个生产者可以被授权生产区块。如果在预设的时间点没有区块产生，那么这个时间槽对应的区块将被跳过。每一个被跳过的区块，都会在区块链上行程一个时间空隙。
 
 > The EOS.IO software enables blocks to be produced exactly every 0.5 second and exactly one producer is authorized to produce a block at any given point in time. If the block is not produced at the scheduled time, then the block for that time slot is skipped. When one or more blocks are skipped, there is a 0.5 or more second gap in the blockchain.
 
-区块一轮产生126个（21个生产者，每个产生6个区块）。
+在EOS.IO中，一轮产生126个区块（21个生产者，每个产生6个区块）。在每轮的一开始，令牌拥有者选出21为不同的区块生产者。这21位生产者协商出一个大多数（15位或更多）都同意的顺序，并按照这个顺序来排队生成区块。
 
 > Using the EOS.IO software, blocks are produced in rounds of 126 \(6 blocks each, times 21 producers\). At the start of each round 21 unique block producers are chosen by preference of votes cast by token holders. The selected producers are scheduled in an order agreed upon by 15 or more producers.
 
@@ -29,4 +29,6 @@ EOS.IO软件保证了每0.5秒产生一个区块，且在任何时间点只有�
 ===
 
 > Byzantine Fault Tolerance is added to traditional DPOS by allowing all producers to sign all blocks so long as no producer signs two blocks with the same timestamp or the same block height. Once 15 producers have signed a block the block is deemed irreversible. Any byzantine producer would have to generate cryptographic evidence of their treason by signing two blocks with the same timestamp or blockheight. Under this model a irreversible consensus should be reachable within 1 second.
+
+
 
