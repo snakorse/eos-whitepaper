@@ -1,8 +1,6 @@
-## Worker Proposal System
+# 矿工提议系统
 
-> #### Worker Proposal System
-
----
+> ## Worker Proposal System
 
 ===
 
@@ -11,6 +9,4 @@
 ===
 
 > The system contracts that implement Worker Proposals may not be in place at initial launch in June 2018, but the funding mechanism will. It will begin to accumulate funds at the same time block producer awards start. Since the Worker Proposal System will be implemented in WASM it can be added at a later date without a fork.
-
-
 

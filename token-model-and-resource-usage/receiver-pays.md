@@ -1,8 +1,6 @@
-## Receiver Pays
+# 接收方付费
 
-> #### Receiver Pays
-
----
+> ## Receiver Pays
 
 ===
 
@@ -15,6 +13,4 @@
 ===
 
 > While it is true that the receiver can pay, EOS.IO enables the sender to pay for bandwidth, computation, and storage. This empowers application developers to pick the method that is best for their application. In many cases sender-pays significantly reduces complexity for application developers who do not want to implement their own rationing system. Application developers can delegate bandwidth and computation to their users and then let the “sender pays” model enforce the usage. From the perspective of the end user it is free, but from the perspective of the blockchain it is sender-pays.
-
-
 

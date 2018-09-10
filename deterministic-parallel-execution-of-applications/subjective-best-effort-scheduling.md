@@ -1,8 +1,6 @@
-## Subjective Best Effort Scheduling
+# 自主最优调度
 
-> #### Subjective Best Effort Scheduling
-
----
+> ## Subjective Best Effort Scheduling
 
 ===
 
@@ -23,6 +21,4 @@
 ===
 
 > This subjective evaluation of computational cost frees the blockchain from having to precisely and deterministically measure how long something takes to run. With this design there is no need to precisely count instructions which dramatically increases opportunities for optimization without breaking consensus.
-
-
 

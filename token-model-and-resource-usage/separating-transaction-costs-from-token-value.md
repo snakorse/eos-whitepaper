@@ -1,8 +1,6 @@
-## Separating Transaction costs from Token Value
+# 分离交易成本与Token价值
 
-> #### Separating Transaction costs from Token Value
-
----
+> ## Separating Transaction costs from Token Value
 
 ===
 
@@ -11,6 +9,4 @@
 ===
 
 > A blockchain using EOS.IO software also awards block producers tokens every time they produce a block. The value of the tokens will impact the amount of bandwidth, storage, and computation a producer can afford to purchase; this model naturally leverages rising token values to increase network performance.
-
-
 

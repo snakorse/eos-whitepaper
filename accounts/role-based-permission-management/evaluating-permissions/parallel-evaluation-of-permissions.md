@@ -1,8 +1,6 @@
-#### Parallel Evaluation of Permissions
+# 权限并行评估
 
-> #### Parallel Evaluation of Permissions
-
----
+> ## Parallel Evaluation of Permissions
 
 ===
 
@@ -15,6 +13,4 @@
 ===
 
 > When replaying the blockchain to regenerate the deterministic state from the log of Actions there is no need to evaluate the permissions again. The fact that a transaction is included in a known good block is sufficient to skip this step. This dramatically reduces the computational load associated with replaying an ever growing blockchain.
-
-
 

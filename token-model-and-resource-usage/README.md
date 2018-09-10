@@ -1,8 +1,6 @@
-# Token Model and Resource Usage
+# Token模型与资源使用
 
-> #### Token Model and Resource Usage
-
----
+> ## Token Model and Resource Usage
 
 ===
 
@@ -35,6 +33,4 @@
 ===
 
 > Adopting the EOS.IO software on a launched blockchain means bandwidth and computational capacity are allocated on a fractional reserve basis because they are transient \(unused capacity cannot be saved for future use\). The algorithm used by EOS.IO software is similar to the algorithm used by Steem to rate-limit bandwidth usage.
-
-
 

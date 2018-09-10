@@ -1,8 +1,6 @@
-# Deterministic Parallel Execution of Applications
+# 应用程序的确定性并行执行
 
-> #### Deterministic Parallel Execution of Applications
-
----
+> ## Deterministic Parallel Execution of Applications
 
 ===
 
@@ -19,6 +17,4 @@
 ===
 
 > Part of parallel execution means that when a script generates a new Action it does not get delivered immediately, instead it is scheduled to be delivered in the next cycle. The reason it cannot be delivered immediately is because the receiver may be actively modifying its own state in another shard.
-
-
 

@@ -1,8 +1,6 @@
-## Segregated Witness
+# 隔离见证
 
-> #### Segregated Witness
-
----
+> ## Segregated Witness
 
 ===
 
@@ -15,6 +13,4 @@
 ===
 
 > Another example of SegWit would be for Steem blog posts. Under this model a post would contain only the sha256\(blog content\) and the blog content would be in the segregated witness data. The block producer would verify that the content exists and has the given hash, but the blog content would not need to be stored in order to recover the current state from the blockchain log. This enables proof that the content was once known without having to store said content forever.
-
-
 

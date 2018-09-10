@@ -1,8 +1,6 @@
-## Context Free Actions
+# 上下文无关的操作
 
-> #### Context Free Actions
-
----
+> ## Context Free Actions
 
 ===
 
@@ -15,6 +13,4 @@
 ===
 
 > With support for Context Free Actions, scalability techniques such as Sharding, Raiden, Plasma, State Channels, and others become much more parallelizable and practical. This development enables efficient inter-blockchain communication and potentially unlimited scalability.
-
-
 

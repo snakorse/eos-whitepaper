@@ -1,8 +1,6 @@
-## Merkle Proofs for Light Client Validation \(LCV\)
+# 用于轻客户端验证的Merkle证明（LCV）
 
-> #### Merkle Proofs for Light Client Validation \(LCV\)
-
----
+> ## Merkle Proofs for Light Client Validation \(LCV\)
 
 ===
 
@@ -37,6 +35,4 @@
 ===
 
 > After a certain density of interconnectedness, it becomes more efficient to simply have one chain contain the entire block history of another chain and eliminate the need for proofs all together. For performance reasons, it is ideal to minimize the frequency of inter-chain proofs.
-
-
 

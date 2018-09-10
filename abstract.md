@@ -1,3 +1,5 @@
+# 摘要和免责声明
+
 摘要：
 
 EOS.IO 软件引入一种新的区块链架构设计，它使得去中心化的应用可以横向和纵向的扩展。这通过实现一个可在其之上构建应用的类似操作系统的架构来实现。该软件提供账户、身份认证、数据库、异步通信和跨众多CPU内核或集群的应用程序调度。由此产生的技术是一个区块链架构，可以最终达到支持每秒百万级交易、免用户手续费，并且在受治理的区块链环境中实现快速便捷的部署和维护去中心化应用。
@@ -23,6 +25,4 @@ EOS.IO 软件引入一种新的区块链架构设计，它使得去中心化的�
 > **DISCLAIMER:**
 >
 > This EOS.IO Technical White Paper v2 is for information purposes only. block.one does not guarantee the accuracy of or the conclusions reached in this white paper, and this white paper is provided “as is”. block.one does not make and expressly disclaims all representations and warranties, express, implied, statutory or otherwise, whatsoever, including, but not limited to: \(i\) warranties of merchantability, fitness for a particular purpose, suitability, usage, title or noninfringement; \(ii\) that the contents of this white paper are free from error; and \(iii\) that such contents will not infringe third-party rights. block.one and its affiliates shall have no liability for damages of any kind arising out of the use, reference to, or reliance on this white paper or any of the content contained herein, even if advised of the possibility of such damages. In no event will block.one or its affiliates be liable to any person or entity for any damages, losses, liabilities, costs or expenses of any kind, whether direct or indirect, consequential, compensatory, incidental, actual, exemplary, punitive or special for the use of, reference to, or reliance on this white paper or any of the content contained herein, including, without limitation, any loss of business, revenues, profits, data, use, goodwill or other intangible losses.
-
-
 

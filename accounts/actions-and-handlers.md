@@ -1,8 +1,6 @@
-## Actions & Handlers
+# 操作 & 处理
 
-> #### Actions & Handlers
-
----
+> ## Actions & Handlers
 
 ===
 
@@ -11,6 +9,4 @@
 ===
 
 > To support parallel execution, each account can also define any number of scopes within their database. The block producers will schedule transaction in such a way that there is no conflict over memory access to scopes and therefore they can be executed in parallel.
-
-
 

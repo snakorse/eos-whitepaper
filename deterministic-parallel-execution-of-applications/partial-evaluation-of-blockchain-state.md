@@ -1,8 +1,6 @@
-## Partial Evaluation of Blockchain State
+# 区块链状态的部分评估
 
-> #### Partial Evaluation of Blockchain State
-
----
+> ## Partial Evaluation of Blockchain State
 
 ===
 
@@ -11,6 +9,4 @@
 ===
 
 > An exchange application developer runs full nodes for the purpose of displaying the exchange state to its users. This exchange application has no need for the state associated with social media applications. EOS.IO software allows any full node to pick any subset of applications to run. Actions delivered to other applications are safely ignored if your application never depends upon the state of another contract.
-
-
 

@@ -1,8 +1,6 @@
-# Governance
+# 治理
 
-> #### Governance
-
----
+> ## Governance
 
 ===
 
@@ -23,6 +21,4 @@
 ===
 
 > Embedded into the EOS.IO software is the election of block producers. Before any change can be made to the blockchain these block producers must approve it. If the block producers refuse to make changes desired by the token holders then they can be voted out. If the block producers make changes without permission of the token holders then all other non-producing full-node validators \(exchanges, etc\) will reject the change.
-
-
 

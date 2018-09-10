@@ -1,8 +1,6 @@
-## Recovery from Stolen Keys
+# 恢复被盗窃的密钥
 
-> #### Recovery from Stolen Keys
-
----
+> ## Recovery from Stolen Keys
 
 ===
 
@@ -15,6 +13,4 @@
 ===
 
 > This process is also very different from a simple multi-signature arrangement. With a multi-signature transaction, another entity is made a party to every transaction that is executed. By contrast, with the recovery process the recovery partner is only a party to the recovery process and has no power over the day-to-day transactions. This dramatically reduces costs and legal liabilities for everyone involved.
-
-
 

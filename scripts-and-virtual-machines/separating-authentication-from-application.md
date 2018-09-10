@@ -1,8 +1,6 @@
-## Separating Authentication from Application
+# 分离授权与应用
 
-> #### Separating Authentication from Application
-
----
+> ## Separating Authentication from Application
 
 ===
 
@@ -19,6 +17,4 @@
 ===
 
 > Authentication is the read-only process of verifying that an Action can be applied. Application is actually doing the work. In real time both calculations are required to be performed, however once a transaction is included in the blockchain it is no longer necessary to perform the authentication operations.
-
-
 

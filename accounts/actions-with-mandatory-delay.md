@@ -1,8 +1,6 @@
-## Actions with Mandatory Delay
+# 带强制性延迟的操作
 
-> #### Actions with Mandatory Delay
-
----
+> ## Actions with Mandatory Delay
 
 ===
 
@@ -15,6 +13,4 @@
 ===
 
 > The required delay depends upon how sensitive an operation is. Paying for a coffee might have no delay and be irreversible in seconds, while buying a house may require a 72 hour clearing period. Transferring an entire account to new control may take up to 30 days. The exact delays are chosen by application developers and users.
-
-
 

@@ -1,8 +1,6 @@
-## Transaction as Proof of Stake \(TaPoS\)
+# 权益证明交易\(TaPos\)
 
-> #### Transaction as Proof of Stake \(TaPoS\)
-
----
+> ## Transaction as Proof of Stake \(TaPoS\)
 
 ===
 
@@ -14,6 +12,4 @@
 ===
 
 > Over time all users end up directly confirming the blockchain which makes it difficult to forge counterfeit chains as the counterfeit would not be able to migrate transactions from the legitimate chain.
-
-
 

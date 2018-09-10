@@ -1,8 +1,6 @@
 # 背景
 
-> #### Backgroud
-
----
+> ## Backgroud
 
 随着2008年比特币的诞生，区块链技术被提出，从那之后企业家和开发者们就开始尝试总结推广这一技术，以实现在单一区块链平台上支持更为广泛的应用程序。
 
@@ -15,6 +13,4 @@
 现存的区块链平台负担着大量的交易费和受限的可计算能力，这都阻碍了区块链技术的大面积应用。
 
 > Existing blockchain platforms are burdened by large fees and limited computational capacity that prevent widespread blockchain adoption.
-
-
 

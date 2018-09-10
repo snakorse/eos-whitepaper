@@ -1,8 +1,6 @@
-## Transaction Confirmation
+# 交易确认
 
-> #### Transaction Confirmation
-
----
+> ## Transaction Confirmation
 
 ===
 
@@ -11,6 +9,4 @@
 ===
 
 > In addition to DPOS, EOS.IO adds asynchronous Byzantine Fault Tolerance \(aBFT\) for faster achievement of irreversibility. The aBFT algorithm provides 100% confirmation of irreversibility within 1 second.
-
-
 

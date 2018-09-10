@@ -1,8 +1,6 @@
-## Constitution
+# 章程
 
-> #### Constitution
-
----
+> ## Constitution
 
 ===
 
@@ -11,6 +9,4 @@
 ===
 
 > The constitution also defines the human-readable intent of the source code protocol. This intent is used to identify the difference between a bug and a feature when errors occur and guides the community on what fixes are proper or improper.
-
-
 

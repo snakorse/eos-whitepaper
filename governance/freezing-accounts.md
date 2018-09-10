@@ -1,8 +1,6 @@
-## Freezing Accounts
+# 冻结账户
 
-> #### Freezing Accounts
-
----
+> ## Freezing Accounts
 
 ===
 
@@ -11,6 +9,4 @@
 ===
 
 > The block producers on all blockchains have the power to select which transactions are included in blocks which gives them the ability to freeze accounts. A blockchain using EOS.IO software formalizes this authority by subjecting the process of freezing an account to a 15/21 vote of active producers. If the producers abuse the power they can be voted out and an account will be unfrozen.
-
-
 

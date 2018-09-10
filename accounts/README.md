@@ -1,8 +1,6 @@
-# Accounts
+# 账户
 
-> #### Accounts
-
----
+> ## Accounts
 
 ===
 
@@ -11,6 +9,4 @@
 ===
 
 > In a decentralized context, application developers will pay the nominal cost of account creation to sign up a new user. Traditional businesses already spend significant sums of money per customer they acquire in the form of advertising, free services, etc. The cost of funding a new blockchain account should be insignificant in comparison. Fortunately, there is no need to create accounts for users already signed up by another application.
-
-
 

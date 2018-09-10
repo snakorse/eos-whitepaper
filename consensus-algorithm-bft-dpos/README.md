@@ -1,8 +1,6 @@
-# 公式算法 \(BFT-DPOS\)
+# 共识算法\(DPOS\)
 
-> #### Consensus Algorithm \(BFT-DPOS\)
-
----
+> ## Consensus Algorithm \(BFT-DPOS\)
 
 EOS.IO软件利用了唯一已知的分散共识算法，该算法能够满足区块链上应用程序的性能要求，授权的证据（DPOS）。在这种算法下，那些在采用了EOS.IO软件的区块链上持有token的人可以通过一个连续的批准投票系统来选择块生产者。任何人都可以选择参与区块生产，并将有机会生产区块，只要他们能说服token持有者投票给他们。
 
@@ -12,7 +10,7 @@ EOS.IO软件保证了每0.5秒产生一个区块，且在任何时间点只有�
 
 > The EOS.IO software enables blocks to be produced exactly every 0.5 second and exactly one producer is authorized to produce a block at any given point in time. If the block is not produced at the scheduled time, then the block for that time slot is skipped. When one or more blocks are skipped, there is a 0.5 or more second gap in the blockchain.
 
-===
+区块一轮产生126个（21个生产者，每个产生6个区块）。
 
 > Using the EOS.IO software, blocks are produced in rounds of 126 \(6 blocks each, times 21 producers\). At the start of each round 21 unique block producers are chosen by preference of votes cast by token holders. The selected producers are scheduled in an order agreed upon by 15 or more producers.
 
@@ -31,6 +29,4 @@ EOS.IO软件保证了每0.5秒产生一个区块，且在任何时间点只有�
 ===
 
 > Byzantine Fault Tolerance is added to traditional DPOS by allowing all producers to sign all blocks so long as no producer signs two blocks with the same timestamp or the same block height. Once 15 producers have signed a block the block is deemed irreversible. Any byzantine producer would have to generate cryptographic evidence of their treason by signing two blocks with the same timestamp or blockheight. Under this model a irreversible consensus should be reachable within 1 second.
-
-
 

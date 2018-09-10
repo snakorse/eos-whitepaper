@@ -1,8 +1,6 @@
-## Role Based Permission Management
+# 基于角色的权限管理
 
-> #### Role Based Permission Management
-
----
+> ## Role Based Permission Management
 
 ===
 
@@ -19,6 +17,4 @@
 ===
 
 > EOS.IO software allows accounts to define what combination of keys and/or accounts can send a particular Action type to another account. For example, it is possible to have one key for a user's social media account and another for access to the exchange. It is even possible to give other accounts permission to act on behalf of a user's account without assigning them keys.
-
-
 
