@@ -14,7 +14,7 @@ EOS.IO软件保证了每0.5秒精确的产生一个区块，且在任何时间�
 
 > Using the EOS.IO software, blocks are produced in rounds of 126 \(6 blocks each, times 21 producers\). At the start of each round 21 unique block producers are chosen by preference of votes cast by token holders. The selected producers are scheduled in an order agreed upon by 15 or more producers.
 
-===
+当某个生产者没有按约定执行时间产生区块，并且近24小时内也没有产生过任何区块，则会被从候选名单移除，直到它主动告知区块链其已经准备好重新生产区块。这种机制可以保证整个网络更平滑，尽量减少由于不可靠的生产者持续异常而导致错过的区块的数量。
 
 > If a producer misses a block and has not produced any block within the last 24 hours they are removed from consideration until they notify the blockchain of their intention to start producing blocks again. This ensures the network operates smoothly by minimizing the number of blocks missed by not scheduling producers who are proven to be unreliable.
 
