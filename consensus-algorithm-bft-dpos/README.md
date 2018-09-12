@@ -22,7 +22,7 @@ EOS.IO软件保证了每0.5秒精确的产生一个区块，且在任何时间�
 
 > Under normal conditions a DPOS blockchain does not experience any forks because, rather than compete, the block producers cooperate to produce blocks. In the event there is a fork, consensus will automatically switch to the longest chain. This method works because the rate at which blocks are added to a blockchain fork is directly correlated to the percentage of block producers that share the same consensus. In other words, a blockchain fork with more producers on it will grow in length faster than one with fewer producers, because the fork with more producers will experience fewer missed blocks.
 
-===
+而且，一个区块生产者同一时间只能在一个分叉上生产区块。如果某个生产者被发现这样做了，将会被投票出局。这种双重生产行为对应的密码学凭证可以用来自动的删除这些捣乱者。
 
 > Furthermore, no block producer should be producing blocks on two forks at the same time. A block producer caught doing this will likely be voted out. Cryptographic evidence of such double-production may also be used to automatically remove abusers.
 
