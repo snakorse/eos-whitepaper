@@ -18,7 +18,7 @@ EOS.IO软件保证了每0.5秒精确的产生一个区块，且在任何时间�
 
 > If a producer misses a block and has not produced any block within the last 24 hours they are removed from consideration until they notify the blockchain of their intention to start producing blocks again. This ensures the network operates smoothly by minimizing the number of blocks missed by not scheduling producers who are proven to be unreliable.
 
-===
+通常情况下，DPOS区块链不会出现分叉，因为区块生产者之间并不是竞争的关系，他们通过相互协作来生产区块。当出现分叉时，基于共识机制，生产者会自动切换到最长的链上。这种方式是有效的，因为区块链上新增区块的速度与采用同一共识的的区块生产者的占比直接相关。换句话说，被多数生产者采用的区块分叉链将会比只有少数生产者采用的分叉链长度增长的更快，因为拥有多数生产者的分叉链上会更少错过区块生产。
 
 > Under normal conditions a DPOS blockchain does not experience any forks because, rather than compete, the block producers cooperate to produce blocks. In the event there is a fork, consensus will automatically switch to the longest chain. This method works because the rate at which blocks are added to a blockchain fork is directly correlated to the percentage of block producers that share the same consensus. In other words, a blockchain fork with more producers on it will grow in length faster than one with fewer producers, because the fork with more producers will experience fewer missed blocks.
 
