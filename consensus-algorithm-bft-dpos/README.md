@@ -26,7 +26,7 @@ EOS.IO软件保证了每0.5秒精确的产生一个区块，且在任何时间�
 
 > Furthermore, no block producer should be producing blocks on two forks at the same time. A block producer caught doing this will likely be voted out. Cryptographic evidence of such double-production may also be used to automatically remove abusers.
 
-===
+通过允许所有的生产者对所有区块签名并保证只要没有生产者对两个区块签署相同的时间戳或同样的区块高度，传统的DPOS实现了 拜占庭容错。一单15个生产者对一个区块做了签名，这个区块将被认为是不可逆的。任何拜占庭生产者将必须必须为两个区块签署同样的时间戳或高度才能实现加密凭证的欺骗。在这种模型下，不可逆的共识将在1秒内完成。
 
 > Byzantine Fault Tolerance is added to traditional DPOS by allowing all producers to sign all blocks so long as no producer signs two blocks with the same timestamp or the same block height. Once 15 producers have signed a block the block is deemed irreversible. Any byzantine producer would have to generate cryptographic evidence of their treason by signing two blocks with the same timestamp or blockheight. Under this model a irreversible consensus should be reachable within 1 second.
 
